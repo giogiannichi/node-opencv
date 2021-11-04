@@ -64,7 +64,7 @@
             "xcode_settings": {
               "OTHER_CFLAGS": [
                 "-mmacosx-version-min=10.7",
-                "-std=c++11",
+                "-std=c++14",
                 "-stdlib=libc++",
                 "<!@(node utils/find-opencv.js --cflags)",
               ],
@@ -145,7 +145,7 @@
             "xcode_settings": {
             "OTHER_CFLAGS": [
               "-mmacosx-version-min=10.7",
-              "-std=c++11",
+              "-std=c++14",
               "-stdlib=libc++",
               "<!@(node utils/find-opencv.js --cflags)",
             ],
